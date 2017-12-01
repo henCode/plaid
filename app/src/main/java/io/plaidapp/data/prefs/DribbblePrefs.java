@@ -56,7 +56,7 @@ public class DribbblePrefs {
     private static final String KEY_USER_AVATAR = "KEY_USER_AVATAR";
     private static final String KEY_USER_TYPE = "KEY_USER_TYPE";
     private static final List<String> CREATIVE_TYPES
-            = Arrays.asList(new String[] { "Player", "Team" });
+            = Arrays.asList(new String[]{"Player", "Team"});
 
     private static volatile DribbblePrefs singleton;
     private final SharedPreferences prefs;
@@ -96,6 +96,7 @@ public class DribbblePrefs {
 
     public interface DribbbleLoginStatusListener {
         void onDribbbleLogin();
+
         void onDribbbleLogout();
     }
 

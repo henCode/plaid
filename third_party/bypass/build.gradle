@@ -16,6 +16,7 @@ android {
             minifyEnabled false
         }
     }
+    buildToolsVersion '27.0.1'
 }
 
 repositories {
